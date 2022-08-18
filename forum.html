@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forum</title>
+    <link rel ="stylesheet" href="style.css" />
+    <link rel ="stylesheet" href="script.js" />
+</head>
+<body>
+   
+    <div class="header">
+        <header>
+            <div>
+                <img src="images/techie_youth.png" width ="100px" id = "logo">
+                <h1>Forum</h1>
+            </div>  
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li>Forum</li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav> 
+        </header>
+    </div>
+
+    <div class="forum_page">
+        
+            <div onsubmit="check()" class="forum_box">
+                <h1>Community Forum for Techie Youth Students</h1>
+                <p>Here are the responses from the Techie Youth community. Feel free to comment and share your expereinces in Techie Youth!</p><br>
+                <label for="name">Enter Your Name:</label>
+                <input type="text" name="" id="username" placeholder=""></input>
+
+                <label for="start">Today's Date:</label>
+                <input type="date" id="today" name="trip-start" value="2018-07-22" min="2018-01-01" max="2018-12-31">
+
+                <label for="text">Type your response Below:</label>
+                <textarea name="" id="message" cols="10" rows="30" placeholder=""></textarea>
+
+                <button class="button-3" type="submit" onsubmit="check()">Submit</button>
+            </div>
+    </div>
+
+</body>
+</html>
+
